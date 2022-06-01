@@ -2,6 +2,51 @@
     display: flex;
     flex-direction: column;
     flex: 0.35;
+    border-right: 1px solid rgb(154, 178, 192);
 }
 
-.sidebar-header {}
+.sidebar-header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    backdrop-filter: blur(2px);
+}
+
+
+.sidebar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.sidebar-buttons>.MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 35px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(203, 218, 236);
+    backdrop-filter: blur(2px);
+}
+
+
+.search-container>.MuiSvgIcon-root {
+    color: rgb(131, 129, 129);
+    padding-left: 10px;
+}
+
+.search-container>input {
+    border: 1px solid rgb(253, 252, 252);
+    border-radius: 7px;
+    width: 75%;
+    outline-width: 0;
+    padding: 10px;
+}
