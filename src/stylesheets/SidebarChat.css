@@ -2,6 +2,10 @@
     border-bottom: 1px solid rgb(191, 221, 218);
 }
 
+.sidebar-chats {
+    overflow-y: auto;
+}
+
 .sidebar-chat {
     display: flex;
     padding: 20px;
@@ -11,8 +15,8 @@
 }
 
 .sidebar-chat:hover {
-    background-color: #afc6e5;
-    transition: 0.5s;
+    background-color: #aec7ea;
+    transition: 0.2s;
 }
 
 .sidebarChat-info {
